@@ -385,7 +385,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: rgba(52, 59, 64, 0.9);
+  background: rgba(98, 98, 98, 0.9);
   left: -260px;
   width: 260px;
   overflow-y: auto;
@@ -446,7 +446,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(52, 59, 64, 0.9);
+  background: rgba(189, 189, 189, 0.9);
   display: none;
 }
 
