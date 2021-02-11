@@ -10,8 +10,8 @@
 --------------------------------------------------------------*/
 #whatsapp {
   position: fixed;
-  top: 84%;
-  right: 0.7%;
+  right: 5px;
+  bottom: 40px;
   z-index: 1000;
 }
 
