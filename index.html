@@ -2,8 +2,6 @@
   
   <script>
   function detectmob() {
-    console.log(window.innerWidth);
-    console.log(window.innerHeight);
     if(screen.width <= 800 || screen.height <= 700) {
       return true;
     } else {
@@ -12,10 +10,8 @@
  }
  
  if (detectmob()){
- alert("mobile");
    top.location.href="https://maki27.itch.io/save-the-timelapse-mobile";
  }else{
-   alert("desktop");
    top.location.href="https://maki27.itch.io/save-the-timelapse";
     }
   </script>
