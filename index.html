@@ -2,7 +2,8 @@
   
   <script>
   function detectmob() {
-    alert("loquesea");
+    console.log(window.innerWidth);
+    console.log(window.innerHeight);
     if(window.innerWidth <= 800 || window.innerHeight <= 670) {
       return true;
     } else {
@@ -11,9 +12,11 @@
  }
  
  if (detectmob()){
- top.location.href="https://maki27.itch.io/save-the-timelapse-mobile";
+ alert("mobile");
+   //top.location.href="https://maki27.itch.io/save-the-timelapse-mobile";
  }else{
-    top.location.href="https://maki27.itch.io/save-the-timelapse";
+   alert("desktop");
+   // top.location.href="https://maki27.itch.io/save-the-timelapse";
     }
   </script>
 
